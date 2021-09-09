@@ -3,11 +3,13 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color:gray ;
+    
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
+    
 }
 
 
@@ -17,9 +19,18 @@ body {
     color: blueviolet;
     font-weight: 900px;
     font-size: xx-large;
+    text-align: center;
+}
+
+.align li{
+    text-align: center;
 }
 
 
+
+.paragraph{
+    font-weight: bold;
+}
 
 
 
@@ -27,7 +38,10 @@ body {
 
 .explore {
     background-color:#7fa46b;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    height: 550px;
+    width:70%;
+    border-radius: 50%;
 }
 
 .explore img{
@@ -43,7 +57,7 @@ margin-top: 4%;
 
 }
 
-.social-media ol li {
+.social-media ol li{
     padding: 5px;
 }
 
@@ -70,9 +84,61 @@ font-size: xx-large;
 }
 
 
-
 .button{
     padding:5px 5px 5px 5px;
     color: cornflowerblue;
     font-size: xx-large;
+    margin-top: 20px;
+}
+
+/*border-style*/
+
+.border{
+    border-style:double;
+    border-color:#7FA46B;
+border-width: 45px;
+}
+
+
+
+
+.explore ul li{
+    /* float: right; */
+    padding-top: 60px;
+   padding-inline:30px;
+
+
+}
+.no{
+    padding: 5px 2px 7px 10px;
+    border-color: darkslategray;
+    border: shadow 2px 3px 4px 8px;
+}
+
+
+
+.explore1{
+    float:right;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+
+.icon{
+    float:left;
+padding-top: 130px;
+border: radius 100%;
+padding-left: 80px;
+}
+
+.h3{
+    color: floralwhite;
+    font-size:18px;
+}
+
+
+
+.leadership-developement{
+margin-right:100px;
+    padding-top:-2px;px;
+    border:radius 30%;
 }
