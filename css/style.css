@@ -2,7 +2,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background-color:gray ;
+    background-color: #E8E7E8;
     
 }
 
@@ -15,15 +15,28 @@ body {
 
 
 
-.align{
+.top{
     color: blueviolet;
     font-weight: 900px;
     font-size: xx-large;
     text-align: center;
 }
 
-.align li{
+.align{
+    text-align: left;
+}
+
+
+
+.list{
+   clear: both;
+
+    /* float: left; */
+}
+
+.list li {
     text-align: center;
+    list-style-type: none;
 }
 
 
@@ -41,7 +54,9 @@ body {
     margin-bottom: 10px;
     height: 550px;
     width:70%;
+    margin: 0 auto;
     border-radius: 50%;
+    /* overflow: hidden; */
 }
 
 .explore img{
@@ -62,7 +77,17 @@ margin-top: 4%;
 }
 
 .social-media img{
-    float: right;
+float:left;
+border: solid gray;
+margin-left: 30px;
+box-shadow: #D2AC78;
+}
+.sec{
+
+    border:solid black;
+    text-align: center;
+    clear: both;
+    border-radius: 5px;
 }
 
 .nav-right {
@@ -105,14 +130,13 @@ border-width: 45px;
 .explore ul li{
     /* float: right; */
     padding-top: 60px;
-   padding-inline:30px;
 
 
 }
 .no{
     padding: 5px 2px 7px 10px;
     border-color: darkslategray;
-    border: shadow 2px 3px 4px 8px;
+    box-shadow :2px 3px 4px firebrick;
 }
 
 
@@ -131,14 +155,56 @@ padding-left: 80px;
 }
 
 .h3{
-    color: floralwhite;
+    background-color:white ;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: #7FA46B;
+    
+    
     font-size:18px;
+    
 }
+
+ul li {
+    list-style-type: none;
+}
+.vid{
+    border: solid greenyellow;
+    width: 300px;
+    display: table-cell;
+box-shadow:#789fd2;
+margin-top: 40px;
+    
+}
+
+
+
 
 
 
 .leadership-developement{
 margin-right:100px;
-    padding-top:-2px;px;
+    padding-top:-100px;
     border:radius 30%;
+}
+
+
+
+.humaans{
+    border-radius: 100%;
+    margin-right: 60px;
+}
+.forms{
+
+    text-align: center;
+    border: solid black;
+    margin-top: 20px;
+    padding-left: 20px ;
+    background-color: lemonchiffon;
+    border-radius:10px;
+    box-shadow: 5px 10px 6px 8px;
+    
+    
+    
 }
